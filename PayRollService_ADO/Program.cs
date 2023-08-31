@@ -29,6 +29,7 @@ namespace PayRollService_ADO
             Payroll_Operation payroll = new Payroll_Operation();
             payroll.CreateTable();
             payroll.UpdateEmployee(employee);
+            payroll.RetreivedatainaParticularPeriod("2019-01-01");
             payroll.GetAllEmployeeDetails();
 
             

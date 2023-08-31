@@ -11,6 +11,7 @@ namespace PayRollService_ADO
 
             Payroll_Operation payroll = new Payroll_Operation();
             payroll.CreateTable();
+            payroll.GetAllEmployeeDetails();
         }
 
     }

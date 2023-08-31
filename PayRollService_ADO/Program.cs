@@ -12,7 +12,7 @@ namespace PayRollService_ADO
             {
                 id = 6,
                 name = "Teressa",
-                salary = "2000",
+                salary = "20000",
                 start_date = "2018/01/01",
                 gender = 'F',
                 phone = "9898789898",
